@@ -11,18 +11,18 @@ using namespace std;
 
 int main(int argc, const char* argv[]) {
     
-    string str;
-    cin >> str;
+    int valid = 0;
     
-    for(int i = 0; i < str.length(); i++) {
-        if (str[i] > 90) {
-            str[i] -= 32;
-        } else {
-            str[i] += 32;
-        }
+    for(int i = 0; i < 5; i++) {
+        int x;
+        cin >> x;
+        
+        valid += x * x;
     }
     
-    cout << str << "\n";
+    valid %= 10;
+        
+    cout << valid << "\n";
     
     return 0;
 }
