@@ -11,18 +11,14 @@ using namespace std;
 
 int main(int argc, const char* argv[]) {
     
-    int valid = 0;
+    long A, B;
+    cin >> A >> B;
     
-    for(int i = 0; i < 5; i++) {
-        int x;
-        cin >> x;
+    long result;
+    
+    result = (A + B) * (A - B);
+    
+    cout << result << "\n";
         
-        valid += x * x;
-    }
-    
-    valid %= 10;
-        
-    cout << valid << "\n";
-    
     return 0;
 }
