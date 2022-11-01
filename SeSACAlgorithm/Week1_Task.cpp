@@ -6,35 +6,30 @@
 //
 
 #include <iostream>
+#include <set>
 
 using namespace std;
 
 int main(int argc, const char* argv[]) {
     
-    int N;
-    cin >> N;
+    set<int> s;
     
-    int count = 0;
-    int* p = new int[N];
-    
-    for(int i = 0; i < N; i++) {
-        int num;
-        cin >> num;
-        p[i] = num;
+    for(int i = 1; i <= 30; i++) {
+        s.insert(i);
     }
     
-    int V;
-    cin >> V;
-    
-    for(int i = 0; i < N; i++) {
-        if (V == p[i]) {
-            count ++;
+    for(int i = 0; i < 28; i++) {
+        int x;
+        cin >> x;
+        
+        if (s.count(x)) {
+            s.erase(x);
         }
     }
     
-    delete[] p;
-    
-    cout << count << "\n";
+    for(set<int>::iterator iter = s.begin(); iter != s.end(); iter++) {
+        cout << *iter << "\n";
+    }
     
     return 0;
 }
