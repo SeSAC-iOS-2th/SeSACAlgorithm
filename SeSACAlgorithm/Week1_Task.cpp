@@ -6,36 +6,46 @@
 //
 
 #include <iostream>
-#include <queue>
+#include <set>
 
 using namespace std;
 
 int main(int argc, const char* argv[]) {
     
-    int N;
-    cin >> N;
+    int a, b;
+    cin >> a >> b;
     
-    queue<int> generalQueue;
-    queue<int> discardedQueue;
+    set<int> A;
+    set<int> B;
     
-    for(int i = 1; i <= N; i++) {
-        generalQueue.push(i);
+    int count = 0;
+    
+    while(a--) {
+        int x;
+        cin >> x;
+        
+        A.insert(x);
     }
     
-    while(generalQueue.size() != 1) {
-        discardedQueue.push(generalQueue.front());
-        generalQueue.pop();
-        generalQueue.push(generalQueue.front());
-        generalQueue.pop();
+    while(b--) {
+        int x;
+        cin >> x;
+        
+        B.insert(x);
     }
     
-    for(int i = 0; i < discardedQueue.size(); i++) {
-        cout << discardedQueue.front() << " ";
-        discardedQueue.push(discardedQueue.front());
-        discardedQueue.pop();
+    for(set<int>::iterator iter = B.begin(); iter != B.end(); iter++) {
+        if (A.count(*iter)) {
+            A.erase(*iter);
+            count ++;
+        }
     }
     
-    cout << generalQueue.front() << " ";
+    cout << A.size() << "\n";
+    
+    for(set<int>::iterator iter = A.begin(); iter != A.end(); iter++) {
+        cout << *iter << " ";
+    }
     
     return 0;
 }
