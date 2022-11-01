@@ -14,14 +14,27 @@ int main(int argc, const char* argv[]) {
     int N;
     cin >> N;
     
-    int result = 1;
+    int count = 0;
+    int* p = new int[N];
     
     for(int i = 0; i < N; i++) {
-        result *= (i + 1);
+        int num;
+        cin >> num;
+        p[i] = num;
     }
     
+    int V;
+    cin >> V;
     
-    cout << result << "\n";
+    for(int i = 0; i < N; i++) {
+        if (V == p[i]) {
+            count ++;
+        }
+    }
+    
+    delete[] p;
+    
+    cout << count << "\n";
     
     return 0;
 }

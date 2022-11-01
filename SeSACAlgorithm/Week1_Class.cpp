@@ -442,50 +442,50 @@
 
 //백준 1764
 
-#include <iostream>
-#include <set>
-#include <queue>
-
-using namespace std;
-
-int main(int argc, const char* argv[]) {
-    
-    int N, M;
-    cin >> N >> M;
-    
-    int count = 0;
-    
-    set<string> st;
-    priority_queue<string, vector<string>, greater<string>> pq;
-    
-    int queueLength;
-    
-    while(N--) {
-        string str;
-        cin >> str;
-        
-        st.insert(str);
-    }
-    
-    while(M--) {
-        string str;
-        cin >> str;
-        
-        if (st.count(str)) {
-            count ++;
-            pq.push(str);
-        }
-    }
-    
-    queueLength = int(pq.size());
-    
-    cout << count << "\n";
-    
-    for(int i = 0; i < queueLength; i++) {
-        cout << pq.top() << "\n";
-        pq.pop();
-    }
-    
-    
-    return 0;
-}
+//#include <iostream>
+//#include <set>
+//#include <queue>
+//
+//using namespace std;
+//
+//int main(int argc, const char* argv[]) {
+//
+//    int N, M;
+//    cin >> N >> M;
+//
+//    int count = 0;
+//
+//    set<string> st;
+//    priority_queue<string, vector<string>, greater<string>> pq;
+//
+//    int queueLength;
+//
+//    while(N--) {
+//        string str;
+//        cin >> str;
+//
+//        st.insert(str);
+//    }
+//
+//    while(M--) {
+//        string str;
+//        cin >> str;
+//
+//        if (st.count(str)) {
+//            count ++;
+//            pq.push(str);
+//        }
+//    }
+//
+//    queueLength = int(pq.size());
+//
+//    cout << count << "\n";
+//
+//    for(int i = 0; i < queueLength; i++) {
+//        cout << pq.top() << "\n";
+//        pq.pop();
+//    }
+//
+//
+//    return 0;
+//}
