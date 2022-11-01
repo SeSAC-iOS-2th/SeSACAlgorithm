@@ -12,22 +12,10 @@ using namespace std;
 
 int main(int argc, const char* argv[]) {
     
-    int T;
-    cin >> T;
+    string str;
+    cin >> str;
     
-    while(T--) {
-        char first;
-        char last;
-        
-        string str;
-        cin >> str;
-        
-        first = str[0];
-        last = str[str.length() - 1];
-        
-        cout << first << last << "\n";
-    }
-    
+    cout << str.length() << "\n";
         
     return 0;
 }
