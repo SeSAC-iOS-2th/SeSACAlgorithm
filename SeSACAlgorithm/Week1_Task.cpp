@@ -12,24 +12,22 @@ using namespace std;
 
 int main(int argc, const char* argv[]) {
     
-    set<int> s;
+    int T;
+    cin >> T;
     
-    for(int i = 1; i <= 30; i++) {
-        s.insert(i);
-    }
-    
-    for(int i = 0; i < 28; i++) {
-        int x;
-        cin >> x;
+    while(T--) {
+        char first;
+        char last;
         
-        if (s.count(x)) {
-            s.erase(x);
-        }
+        string str;
+        cin >> str;
+        
+        first = str[0];
+        last = str[str.length() - 1];
+        
+        cout << first << last << "\n";
     }
     
-    for(set<int>::iterator iter = s.begin(); iter != s.end(); iter++) {
-        cout << *iter << "\n";
-    }
-    
+        
     return 0;
 }
