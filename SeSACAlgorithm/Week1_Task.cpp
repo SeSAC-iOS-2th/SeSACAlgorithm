@@ -35,40 +35,87 @@
 //    return 0;
 //}
 
+//#include <iostream>
+//#include <queue>
+//
+//using namespace std;
+//
+//int main(int argc, const char* argv[]) {
+//
+//    int N;
+//    cin >> N;
+//
+//    priority_queue<int, vector<int>, greater<int>> pq;
+//
+//    int result = 0;
+//
+//    while(N--) {
+//        int num;
+//        cin >> num;
+//
+//        pq.push(num);
+//    }
+//
+//    while(pq.size() != 1) {
+//        int first, second;
+//        first = pq.top();
+//        pq.pop();
+//        second = pq.top();
+//        pq.pop();
+//
+//        result += first + second;
+//        pq.push(first + second);
+//
+//    }
+//
+//    cout << result << "\n";
+//
+//    return 0;
+//}
+
+
 #include <iostream>
-#include <queue>
+#include <vector>
+#include <set>
+#include <algorithm>
 
 using namespace std;
 
 int main(int argc, const char* argv[]) {
     
-    int N;
-    cin >> N;
+    int numA, numB;
+    cin >> numA >> numB;
     
-    priority_queue<int, vector<int>, greater<int>> pq;
+    set<int> setA;
+    set<int> setB;
     
-    int result = 0;
+    int result;
     
-    while(N--) {
-        int num;
-        cin >> num;
+    while(numA--) {
+        int element;
+        cin >> element;
         
-        pq.push(num);
+        setA.insert(element);
     }
     
-    while(pq.size() != 1) {
-        int first, second;
-        first = pq.top();
-        pq.pop();
-        second = pq.top();
-        pq.pop();
+    while(numB--) {
+        int element;
+        cin >> element;
         
-        result += first + second;
-        pq.push(first + second);
-        
+        setB.insert(element);
     }
     
+    //집합의 연산 기능 - vector와 algorithm 사용
+    vector<int> aMinusB;
+    vector<int> bMinusA;
+
+    set_difference(setA.begin(), setA.end(), setB.begin(), setB.end(), back_inserter(aMinusB));
+    set_difference(setB.begin(), setB.end(), setA.begin(), setA.end(), back_inserter(bMinusA));
+    
+    
+    result = int(aMinusB.size()) + int(bMinusA.size());
     cout << result << "\n";
+    
     
     return 0;
 }
