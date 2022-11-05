@@ -74,48 +74,22 @@
 //}
 
 
-#include <iostream>
-#include <vector>
-#include <set>
-#include <algorithm>
-
-using namespace std;
-
-int main(int argc, const char* argv[]) {
-    
-    int numA, numB;
-    cin >> numA >> numB;
-    
-    set<int> setA;
-    set<int> setB;
-    
-    int result;
-    
-    while(numA--) {
-        int element;
-        cin >> element;
-        
-        setA.insert(element);
-    }
-    
-    while(numB--) {
-        int element;
-        cin >> element;
-        
-        setB.insert(element);
-    }
-    
-    //집합의 연산 기능 - vector와 algorithm 사용
-    vector<int> aMinusB;
-    vector<int> bMinusA;
-
-    set_difference(setA.begin(), setA.end(), setB.begin(), setB.end(), back_inserter(aMinusB));
-    set_difference(setB.begin(), setB.end(), setA.begin(), setA.end(), back_inserter(bMinusA));
-    
-    
-    result = int(aMinusB.size()) + int(bMinusA.size());
-    cout << result << "\n";
-    
-    
-    return 0;
-}
+//#include <iostream>
+//#include <set>
+//
+//using namespace std;
+//
+//int main(int argc, const char* argv[]) {
+//
+//    int n;
+//    cin >> n;
+//
+//    while(n--) {
+//        int num;
+//        cin >> num;
+//
+//
+//    }
+//
+//    return 0;
+//}
