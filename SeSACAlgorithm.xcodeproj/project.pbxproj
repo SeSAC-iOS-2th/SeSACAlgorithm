@@ -57,6 +57,23 @@
 		12F695DE291652C60041C2EF /* BJ10872.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12F695DC291652C60041C2EF /* BJ10872.cpp */; };
 		12F695E1291653620041C2EF /* BJ10870.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12F695DF291653620041C2EF /* BJ10870.cpp */; };
 		12F695E4291654400041C2EF /* BJ1182.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12F695E2291654400041C2EF /* BJ1182.cpp */; };
+		12FC09EF293195C500769339 /* BJ10988.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC09ED293195C500769339 /* BJ10988.cpp */; };
+		12FC09F22931975000769339 /* BJ17608.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC09F02931975000769339 /* BJ17608.cpp */; };
+		12FC09F5293198BF00769339 /* BJ1475.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC09F3293198BF00769339 /* BJ1475.cpp */; };
+		12FC09F82931A03500769339 /* BJ3986.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC09F62931A03500769339 /* BJ3986.cpp */; };
+		12FC09FB2931A86300769339 /* BJ2644.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC09F92931A86300769339 /* BJ2644.cpp */; };
+		12FC09FE2931B36A00769339 /* BJ12904.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC09FC2931B36A00769339 /* BJ12904.cpp */; };
+		12FC0A012931B4DD00769339 /* BJ12931.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC09FF2931B4DD00769339 /* BJ12931.cpp */; };
+		12FC0A042931CDB900769339 /* BJ11047.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A022931CDB900769339 /* BJ11047.cpp */; };
+		12FC0A072931CFD600769339 /* BJ1026.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A052931CFD600769339 /* BJ1026.cpp */; };
+		12FC0A0A2931D41C00769339 /* BJ1439.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A082931D41C00769339 /* BJ1439.cpp */; };
+		12FC0A0D2931D55F00769339 /* BJ22993.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A0B2931D55F00769339 /* BJ22993.cpp */; };
+		12FC0A102931D7A300769339 /* BJ1931.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A0E2931D7A300769339 /* BJ1931.cpp */; };
+		12FC0A132931DFB100769339 /* BJ2748.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A112931DFB100769339 /* BJ2748.cpp */; };
+		12FC0A162931E41100769339 /* BJ1700.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A142931E41100769339 /* BJ1700.cpp */; };
+		12FC0A192931F04300769339 /* BJ1463.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A172931F04300769339 /* BJ1463.cpp */; };
+		12FC0A1C2931FD3C00769339 /* BJ9461.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A1A2931FD3C00769339 /* BJ9461.cpp */; };
+		12FC0A1F2932000000769339 /* BJ2579.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FC0A1D2932000000769339 /* BJ2579.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,6 +141,23 @@
 		12F695DC291652C60041C2EF /* BJ10872.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ10872.cpp; sourceTree = "<group>"; };
 		12F695DF291653620041C2EF /* BJ10870.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ10870.cpp; sourceTree = "<group>"; };
 		12F695E2291654400041C2EF /* BJ1182.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ1182.cpp; sourceTree = "<group>"; };
+		12FC09ED293195C500769339 /* BJ10988.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ10988.cpp; sourceTree = "<group>"; };
+		12FC09F02931975000769339 /* BJ17608.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ17608.cpp; sourceTree = "<group>"; };
+		12FC09F3293198BF00769339 /* BJ1475.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ1475.cpp; sourceTree = "<group>"; };
+		12FC09F62931A03500769339 /* BJ3986.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ3986.cpp; sourceTree = "<group>"; };
+		12FC09F92931A86300769339 /* BJ2644.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ2644.cpp; sourceTree = "<group>"; };
+		12FC09FC2931B36A00769339 /* BJ12904.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ12904.cpp; sourceTree = "<group>"; };
+		12FC09FF2931B4DD00769339 /* BJ12931.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ12931.cpp; sourceTree = "<group>"; };
+		12FC0A022931CDB900769339 /* BJ11047.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ11047.cpp; sourceTree = "<group>"; };
+		12FC0A052931CFD600769339 /* BJ1026.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ1026.cpp; sourceTree = "<group>"; };
+		12FC0A082931D41C00769339 /* BJ1439.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ1439.cpp; sourceTree = "<group>"; };
+		12FC0A0B2931D55F00769339 /* BJ22993.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ22993.cpp; sourceTree = "<group>"; };
+		12FC0A0E2931D7A300769339 /* BJ1931.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ1931.cpp; sourceTree = "<group>"; };
+		12FC0A112931DFB100769339 /* BJ2748.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ2748.cpp; sourceTree = "<group>"; };
+		12FC0A142931E41100769339 /* BJ1700.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ1700.cpp; sourceTree = "<group>"; };
+		12FC0A172931F04300769339 /* BJ1463.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ1463.cpp; sourceTree = "<group>"; };
+		12FC0A1A2931FD3C00769339 /* BJ9461.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ9461.cpp; sourceTree = "<group>"; };
+		12FC0A1D2932000000769339 /* BJ2579.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJ2579.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +190,7 @@
 		12132D98290CAC3500B58313 /* SeSACAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				12FC09EC2931954100769339 /* Week5 */,
 				12A1E22C292857C900367A8E /* Week4 */,
 				1238D7F1291F1AC2002A6AA1 /* Week3 */,
 				12F695AE2915DF320041C2EF /* Week2 */,
@@ -187,7 +222,6 @@
 		12A1E22C292857C900367A8E /* Week4 */ = {
 			isa = PBXGroup;
 			children = (
-				12D956C32916627800905200 /* bits */,
 				12A1E22D292857F000367A8E /* BJ2292.cpp */,
 				12A1E23029285C1C00367A8E /* BJ2851.cpp */,
 				12A1E23329285EFB00367A8E /* BJ10773.cpp */,
@@ -249,6 +283,31 @@
 				1247CFF82918F5E300DA291A /* BJ11720.cpp */,
 			);
 			path = Week2;
+			sourceTree = "<group>";
+		};
+		12FC09EC2931954100769339 /* Week5 */ = {
+			isa = PBXGroup;
+			children = (
+				12D956C32916627800905200 /* bits */,
+				12FC09ED293195C500769339 /* BJ10988.cpp */,
+				12FC09F02931975000769339 /* BJ17608.cpp */,
+				12FC09F3293198BF00769339 /* BJ1475.cpp */,
+				12FC09F62931A03500769339 /* BJ3986.cpp */,
+				12FC09F92931A86300769339 /* BJ2644.cpp */,
+				12FC09FC2931B36A00769339 /* BJ12904.cpp */,
+				12FC09FF2931B4DD00769339 /* BJ12931.cpp */,
+				12FC0A022931CDB900769339 /* BJ11047.cpp */,
+				12FC0A052931CFD600769339 /* BJ1026.cpp */,
+				12FC0A082931D41C00769339 /* BJ1439.cpp */,
+				12FC0A0B2931D55F00769339 /* BJ22993.cpp */,
+				12FC0A0E2931D7A300769339 /* BJ1931.cpp */,
+				12FC0A112931DFB100769339 /* BJ2748.cpp */,
+				12FC0A142931E41100769339 /* BJ1700.cpp */,
+				12FC0A172931F04300769339 /* BJ1463.cpp */,
+				12FC0A1A2931FD3C00769339 /* BJ9461.cpp */,
+				12FC0A1D2932000000769339 /* BJ2579.cpp */,
+			);
+			path = Week5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,32 +374,46 @@
 				12A1E24729289F4900367A8E /* BJ11724.cpp in Sources */,
 				12A1E24D2928ADB800367A8E /* BJ1697.cpp in Sources */,
 				12F695C9291621EA0041C2EF /* BJ1253.cpp in Sources */,
+				12FC09FB2931A86300769339 /* BJ2644.cpp in Sources */,
 				12F695DB291650750041C2EF /* BJ1342.cpp in Sources */,
 				1238D803291F2E7A002A6AA1 /* BJ18870.cpp in Sources */,
 				1238D80C291F58E5002A6AA1 /* BJ2606.cpp in Sources */,
+				12FC0A042931CDB900769339 /* BJ11047.cpp in Sources */,
 				1238D80F291F641F002A6AA1 /* BJ11724.cpp in Sources */,
+				12FC0A102931D7A300769339 /* BJ1931.cpp in Sources */,
 				1210BA352910E826005E91BA /* Week1_Task.cpp in Sources */,
+				12FC0A162931E41100769339 /* BJ1700.cpp in Sources */,
 				12F695E4291654400041C2EF /* BJ1182.cpp in Sources */,
 				12A1E23E29286A3F00367A8E /* BJ11659.cpp in Sources */,
+				12FC0A192931F04300769339 /* BJ1463.cpp in Sources */,
 				12A1E22F292857F000367A8E /* BJ2292.cpp in Sources */,
 				12A1E2442928975C00367A8E /* BJ2606.cpp in Sources */,
 				12A1E2382928600900367A8E /* BJ11399.cpp in Sources */,
 				1238D815291F8167002A6AA1 /* BJ2667.cpp in Sources */,
+				12FC0A0D2931D55F00769339 /* BJ22993.cpp in Sources */,
 				12A1E2502928B28700367A8E /* BJ16953.cpp in Sources */,
 				12F695D2291649740041C2EF /* BJ1051.cpp in Sources */,
 				1238D818291F8B33002A6AA1 /* BJ4963.cpp in Sources */,
 				1247CFF72918EBD100DA291A /* BJ10988.cpp in Sources */,
 				1238D7FD291F23BE002A6AA1 /* BJ3036.cpp in Sources */,
+				12FC09FE2931B36A00769339 /* BJ12904.cpp in Sources */,
+				12FC09F82931A03500769339 /* BJ3986.cpp in Sources */,
 				12A1E23229285C1C00367A8E /* BJ2851.cpp in Sources */,
+				12FC0A0A2931D41C00769339 /* BJ1439.cpp in Sources */,
 				12F695B42915E1C20041C2EF /* BJ1427.cpp in Sources */,
+				12FC0A1F2932000000769339 /* BJ2579.cpp in Sources */,
+				12FC0A132931DFB100769339 /* BJ2748.cpp in Sources */,
 				12F695E1291653620041C2EF /* BJ10870.cpp in Sources */,
 				1238D7F4291F1D3D002A6AA1 /* BJ1085.cpp in Sources */,
 				12A1E24129286F7500367A8E /* BJ14719.cpp in Sources */,
 				12F695C629161D800041C2EF /* BJ3079.cpp in Sources */,
+				12FC09EF293195C500769339 /* BJ10988.cpp in Sources */,
 				12F695B12915DFE70041C2EF /* BJ2751.cpp in Sources */,
+				12FC0A1C2931FD3C00769339 /* BJ9461.cpp in Sources */,
 				12A1E2592928CC7000367A8E /* BJ13549.cpp in Sources */,
 				12A1E23529285EFB00367A8E /* BJ10773.cpp in Sources */,
 				1238D7FA291F2140002A6AA1 /* BJ2839.cpp in Sources */,
+				12FC09F22931975000769339 /* BJ17608.cpp in Sources */,
 				12F695BD2915EFD80041C2EF /* BJ2805.cpp in Sources */,
 				1247CFFA2918F5E300DA291A /* BJ11720.cpp in Sources */,
 				12F695DE291652C60041C2EF /* BJ10872.cpp in Sources */,
@@ -348,16 +421,19 @@
 				12F695CF29163FE40041C2EF /* BJ12755.cpp in Sources */,
 				12132D9A290CAC3500B58313 /* Week1_Class.cpp in Sources */,
 				12F695BA2915E83E0041C2EF /* BJ2615.cpp in Sources */,
+				12FC0A072931CFD600769339 /* BJ1026.cpp in Sources */,
 				12F695D829164BE40041C2EF /* BJ10819.cpp in Sources */,
 				12F695C0291603EC0041C2EF /* BJ1654.cpp in Sources */,
 				12F695CC29163C010041C2EF /* BJ3040.cpp in Sources */,
 				12A1E2532928B54200367A8E /* BJ2178.cpp in Sources */,
+				12FC0A012931B4DD00769339 /* BJ12931.cpp in Sources */,
 				12A1E23B292861A900367A8E /* BJ12871.cpp in Sources */,
 				12F695C3291617710041C2EF /* BJ2512.cpp in Sources */,
 				1238D812291F6FAE002A6AA1 /* BJ1707.cpp in Sources */,
 				12F695D529164AFF0041C2EF /* BJ10974.cpp in Sources */,
 				12A1E24A2928A2D500367A8E /* BJ25418.cpp in Sources */,
 				1238D806291F33D0002A6AA1 /* BJ6236.cpp in Sources */,
+				12FC09F5293198BF00769339 /* BJ1475.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
